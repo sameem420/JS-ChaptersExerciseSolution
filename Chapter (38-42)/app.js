@@ -74,19 +74,31 @@
 
 
 // Task # 5
-let myStr = prompt('Enter the String: ');
-let findchar = prompt('Enter the Character to find: ');
-var found = findIndex(myStr,findchar);
-alert("The value found at index : " + found);
+// let myStr = prompt('Enter the String: ');
+// let findchar = prompt('Enter the Character to find: ');
+// var found = findIndex(myStr,findchar);
+// alert("The value found at index : " + found);
 
-function findIndex(myStr, findchar)
+// function findIndex(myStr, findchar)
+// {
+//     for(var index=0; index < myStr.length; index++)
+//     {
+//         if(myStr[index] === findchar)
+//         {
+//             return index;
+//         }
+//     }
+//     return -1;
+// }
+
+
+// Task # 6
+var originalSentence = prompt("Enter the sentence : ");
+var sentence = removeVowels(originalSentence);
+alert(sentence);
+
+function removeVowels(sentence) 
 {
-    for(var index=0; index < myStr.length; index++)
-    {
-        if(myStr[index] === findchar)
-        {
-            return index;
-        }
-    }
-    return -1;
+    sentence = sentence.replace(/[aeiou]/ig, '');
+    return sentence;
 }
