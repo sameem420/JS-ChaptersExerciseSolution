@@ -23,21 +23,37 @@
 
 
 // Task # 3
-function sidesofTriangle(a,b,c)
+// function sidesofTriangle(a,b,c)
+// {
+//     var Sum = (a + b + c)/2;
+//     return Sum;
+// }
+
+// function Area(S,a,b,c) {
+//     var area = S * ((S-a) * (S-b) * (S-c));
+//     return area;
+// }
+
+// let side1 = +prompt('Enter side 1: ');
+// let side2 = +prompt('Enter side 2: ');
+// let side3 = +prompt('Enter side 3: ');
+
+// var S = sidesofTriangle(side1,side2,side3);
+// var A = Area(S,side1,side2,side3);
+// alert("The area of Triangle is : " + A);
+
+
+// Task # 4
+let firstSubjectmarks = +prompt('Enter first Subject Marks : ');
+let secondSubjectmarks = +prompt('Enter second Subject Marks : ');
+let thirdSujectmarks = +prompt('Enter third Subject Marks: ');
+
+function Average()
 {
-    var Sum = (a + b + c)/2;
-    return Sum;
+
 }
 
-function Area(S,a,b,c) {
-    var area = S * ((S-a) * (S-b) * (S-c));
-    return area;
+function Percentage() 
+{
+    
 }
-
-let side1 = +prompt('Enter side 1: ');
-let side2 = +prompt('Enter side 2: ');
-let side3 = +prompt('Enter side 3: ');
-
-var S = sidesofTriangle(side1,side2,side3);
-var A = Area(S,side1,side2,side3);
-alert("The area of Triangle is : " + A);
