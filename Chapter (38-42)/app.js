@@ -150,23 +150,23 @@ kmtocm(distance);
 function kmtometers(distance)
 {
     var distanceinmeters = distance * 1000;
-    alert("The distance in Meters is : " + distanceinmeters);
+    alert("The distance in Meters is : " + distanceinmeters + " m");
 }
 
 function kmtofeet(distance)
 {
     var distanceinft = distance * 3280.8399;
-    alert("The distance in Meters is : " + distanceinft);
+    alert("The distance in Feet is : " + distanceinft + " ft");
 }
 
 function kmtoinches(distance) 
 {
     var distanceininches = distance * 39370.079;
-    alert("The distance in Meters is : " + distanceininches);
+    alert("The distance in Inches is : " + distanceininches + " in");
 }
 
 function kmtocm(distance) 
 {
     var distanceincm = distance * 100000;
-    alert("The distance in Meters is : " + distanceincm);
+    alert("The distance in Centimeters is : " + distanceincm + " cm");
 }
