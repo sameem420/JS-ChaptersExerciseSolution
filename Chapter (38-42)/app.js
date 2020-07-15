@@ -44,30 +44,49 @@
 
 
 // Task # 4
-function mainFunction()
-{
-    let firstSubjectmarks = +prompt('Enter first Subject Marks : ');
-    let secondSubjectmarks = +prompt('Enter second Subject Marks : ');
-    let thirdSujectmarks = +prompt('Enter third Subject Marks: ');
-    var avg = Average(firstSubjectmarks, secondSubjectmarks, thirdSujectmarks);
-    alert("The average of the marks is : " + avg);
-    var total = 100;
-    Percentage(total,firstSubjectmarks, secondSubjectmarks, thirdSujectmarks);
-}
-function Average(firstSubjectmarks, secondSubjectmarks, thirdSujectmarks)
-{
-    var avg = (firstSubjectmarks + secondSubjectmarks + thirdSujectmarks)/3;
-    return avg;
-}
+// function mainFunction()
+// {
+//     let firstSubjectmarks = +prompt('Enter first Subject Marks : ');
+//     let secondSubjectmarks = +prompt('Enter second Subject Marks : ');
+//     let thirdSujectmarks = +prompt('Enter third Subject Marks: ');
+//     var avg = Average(firstSubjectmarks, secondSubjectmarks, thirdSujectmarks);
+//     alert("The average of the marks is : " + avg);
+//     var total = 100;
+//     Percentage(total,firstSubjectmarks, secondSubjectmarks, thirdSujectmarks);
+// }
+// function Average(firstSubjectmarks, secondSubjectmarks, thirdSujectmarks)
+// {
+//     var avg = (firstSubjectmarks + secondSubjectmarks + thirdSujectmarks)/3;
+//     return avg;
+// }
 
-function Percentage(total,firstSubjectmarks, secondSubjectmarks, thirdSujectmarks) 
-{
-    var firstSubjectPercent = (firstSubjectmarks/total)*100;
-    var secondSubjectPercent = (secondSubjectmarks/total)*100;
-    var thirdSujectPercent = (thirdSujectmarks/total)*100;
-    alert("The percentage of first Subject is : " + firstSubjectPercent);
-    alert("The percentage of second Subject is : " + secondSubjectPercent);
-    alert("The percentage of third Subject is : " + thirdSujectPercent);
-}
+// function Percentage(total,firstSubjectmarks, secondSubjectmarks, thirdSujectmarks) 
+// {
+//     var firstSubjectPercent = (firstSubjectmarks/total)*100;
+//     var secondSubjectPercent = (secondSubjectmarks/total)*100;
+//     var thirdSujectPercent = (thirdSujectmarks/total)*100;
+//     alert("The percentage of first Subject is : " + firstSubjectPercent);
+//     alert("The percentage of second Subject is : " + secondSubjectPercent);
+//     alert("The percentage of third Subject is : " + thirdSujectPercent);
+// }
 
-mainFunction();
+// mainFunction();
+
+
+// Task # 5
+let myStr = prompt('Enter the String: ');
+let findchar = prompt('Enter the Character to find: ');
+var found = findIndex(myStr,findchar);
+alert("The value found at index : " + found);
+
+function findIndex(myStr, findchar)
+{
+    for(var index=0; index < myStr.length; index++)
+    {
+        if(myStr[index] === findchar)
+        {
+            return index;
+        }
+    }
+    return -1;
+}
