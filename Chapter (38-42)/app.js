@@ -93,12 +93,47 @@
 
 
 // Task # 6
-var originalSentence = prompt("Enter the sentence : ");
-var sentence = removeVowels(originalSentence);
-alert(sentence);
+// var originalSentence = prompt("Enter the sentence : ");
+// var sentence = removeVowels(originalSentence);
+// alert(sentence);
 
-function removeVowels(sentence) 
-{
-    sentence = sentence.replace(/[aeiou]/ig, '');
-    return sentence;
+// function removeVowels(sentence) 
+// {
+//     sentence = sentence.replace(/[aeiou]/ig, '');
+//     return sentence;
+// }
+
+
+// Task # 7
+function findVowelOccurrences() {
+    var str = "Pleases read this application and give me gratuity";
+    var count = 0;
+    let seenVowel = false;
+  
+    for (const letter of str.toLowerCase()) 
+    {
+      switch (letter) {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+          {
+            if (seenVowel) {
+              count++;
+              seenVowel = false;
+            } 
+            else {
+              seenVowel = true;
+            }
+            break;
+          }
+        default:
+          seenVowel = false;
+      }
+    }
+    return count;
 }
+
+var count = findVowelOccurrences();
+alert("The number of vowels occurence is : " + count);
