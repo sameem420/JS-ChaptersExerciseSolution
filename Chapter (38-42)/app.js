@@ -140,3 +140,33 @@
 
 
 // Task # 8
+var distance = prompt("ENter the distance between two cities in (km) : ");
+kmtometers(distance);
+kmtofeet(distance);
+kmtoinches(distance);
+kmtocm(distance);
+
+
+function kmtometers(distance)
+{
+    var distanceinmeters = distance * 1000;
+    return distanceinmeters;
+}
+
+function kmtofeet(distance)
+{
+    var distanceinft = distance * 3280.8399;
+    return distanceinft;
+}
+
+function kmtoinches(distance) 
+{
+    var distanceininches = distance * 39370.079;
+    return distanceininches;
+}
+
+function kmtocm(distance) 
+{
+    var distanceincm = distance * 100000;
+    return distanceincm;
+}
