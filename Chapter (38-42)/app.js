@@ -140,33 +140,36 @@
 
 
 // Task # 8
-var distance = prompt("ENter the distance between two cities in (km) : ");
-kmtometers(distance);
-kmtofeet(distance);
-kmtoinches(distance);
-kmtocm(distance);
+// var distance = prompt("ENter the distance between two cities in (km) : ");
+// kmtometers(distance);
+// kmtofeet(distance);
+// kmtoinches(distance);
+// kmtocm(distance);
 
 
-function kmtometers(distance)
-{
-    var distanceinmeters = distance * 1000;
-    alert("The distance in Meters is : " + distanceinmeters + " m");
-}
+// function kmtometers(distance)
+// {
+//     var distanceinmeters = distance * 1000;
+//     alert("The distance in Meters is : " + distanceinmeters + " m");
+// }
 
-function kmtofeet(distance)
-{
-    var distanceinft = distance * 3280.8399;
-    alert("The distance in Feet is : " + distanceinft + " ft");
-}
+// function kmtofeet(distance)
+// {
+//     var distanceinft = distance * 3280.8399;
+//     alert("The distance in Feet is : " + distanceinft + " ft");
+// }
 
-function kmtoinches(distance) 
-{
-    var distanceininches = distance * 39370.079;
-    alert("The distance in Inches is : " + distanceininches + " in");
-}
+// function kmtoinches(distance) 
+// {
+//     var distanceininches = distance * 39370.079;
+//     alert("The distance in Inches is : " + distanceininches + " in");
+// }
 
-function kmtocm(distance) 
-{
-    var distanceincm = distance * 100000;
-    alert("The distance in Centimeters is : " + distanceincm + " cm");
-}
+// function kmtocm(distance) 
+// {
+//     var distanceincm = distance * 100000;
+//     alert("The distance in Centimeters is : " + distanceincm + " cm");
+// }
+
+
+// Task # 9
