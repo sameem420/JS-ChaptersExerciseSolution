@@ -173,3 +173,18 @@
 
 
 // Task # 9
+var workingHours = prompt("Enter the working Hours : ");
+var normalPayRate = 10;
+var normalPay = 0;
+if(workingHours > 40) {
+    var overtimeHours = workingHours - 40;
+    overtimePay = overtimeHours * 12;
+    normalPay = 40 * normalPayRate;
+    var totalPay = normalPay + overtimePay;
+    alert("The overtime Pay is : " + overtimePay);
+    alert("The Total Pay is : " + totalPay);
+}
+else{
+    normalPay = workingHours * normalPayRate;
+    alert("The normal Pay is : " + normalPay);
+}
