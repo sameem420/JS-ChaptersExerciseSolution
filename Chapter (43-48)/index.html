@@ -5,17 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter # 43-48</title>
 </head>
+<style>
+    .row {
+        width: 100%;
+        display: inline-block;
+    }
+    .col-1 {
+        display: inline-block;
+        padding: 50px;
+    }
+    .col-2 {
+        display: inline-block;
+        padding: 50px;
+    }
+    .col-3 {
+        display: inline-block;
+        padding: 50px;
+    }
+    .col-4 {
+        display: inline-block;
+        padding: 50px;
+    }
+</style>
 <body>   
+
     <div>
         <a href="#" onclick="showAlert()">Click Me</a>
     </div>
-    <div>
+
+    <div class="row">
         <h1>Mobile Phone Lookup</h1>
-        <img src="./images/HuaweiNova7i-b.jpg" alt="HuaweiNova7i-b">
-        <img src="./images/InfinixNote7-b.jpg" alt="InfinixNote7-b">
-        <img src="./images/RealmeX3SuperZoom-b.jpg" alt="RealmeX3SuperZoom-b">
-        <img src="./images/SamsungGalaxyA31-b.jpg" alt="SamsungGalaxyA31-b">
+        <div class="col-1">
+            <img src="./images/HuaweiNova7i-b.jpg" alt="HuaweiNova7i-b" onclick="alert('Thanks for purchasing a phone from us');">
+            <h3>Huawei Nova 7i</h3>
+        </div>
+        <div class="col-2">
+            <img src="./images/InfinixNote7-b.jpg" alt="InfinixNote7-b" onclick="alert('Thanks for purchasing a phone from us');">
+            <h3>Infinix Note 7</h3>
+        </div>
+        <div class="col-3">
+            <img src="./images/RealmeX3SuperZoom-b.jpg" alt="RealmeX3SuperZoom-b" onclick="alert('Thanks for purchasing a phone from us');">
+            <h3>Realme X3 SuperZoom</h3>
+        </div>
+        <div class="col-4">
+            <img src="./images/SamsungGalaxyA31-b.jpg" alt="SamsungGalaxyA31-b" onclick="alert('Thanks for purchasing a phone from us');">
+            <h3>Samsung Galaxy A31</h3>
+        </div>
     </div>
+
     <script src="app.js"></script>
     
 </body>
