@@ -173,18 +173,29 @@
 
 
 // Task # 9
-var workingHours = prompt("Enter the working Hours : ");
-var normalPayRate = 10;
-var normalPay = 0;
-if(workingHours > 40) {
-    var overtimeHours = workingHours - 40;
-    overtimePay = overtimeHours * 12;
-    normalPay = 40 * normalPayRate;
-    var totalPay = normalPay + overtimePay;
-    alert("The overtime Pay is : " + overtimePay);
-    alert("The Total Pay is : " + totalPay);
-}
-else{
-    normalPay = workingHours * normalPayRate;
-    alert("The normal Pay is : " + normalPay);
-}
+// var workingHours = prompt("Enter the working Hours : ");
+// var normalPayRate = 10;
+// var normalPay = 0;
+// if(workingHours > 40) {
+//     var overtimeHours = workingHours - 40;
+//     overtimePay = overtimeHours * 12;
+//     normalPay = 40 * normalPayRate;
+//     var totalPay = normalPay + overtimePay;
+//     alert("The overtime Pay is : " + overtimePay);
+//     alert("The Total Pay is : " + totalPay);
+// }
+// else{
+//     normalPay = workingHours * normalPayRate;
+//     alert("The normal Pay is : " + normalPay);
+// }
+
+
+// Task # 10
+var amount = prompt("Enter amount to withdraw : ");
+
+var notesOf100 = parseInt(amount / 100);
+var notesOf50 = parseInt((amount % 100) / 50);
+var notesOf10 = ((amount % 100) % 50) / 10;
+var remAmount = ((amount % 100) % 50) % 10;
+
+alert("You will have " + notesOf100 + " hundred notes " + notesOf50 + " fifty notes " + notesOf10 + " ten notes");
