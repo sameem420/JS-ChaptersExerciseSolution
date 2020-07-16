@@ -191,11 +191,11 @@
 
 
 // Task # 10
-var amount = prompt("Enter amount to withdraw : ");
+// var amount = prompt("Enter amount to withdraw : ");
 
-var notesOf100 = parseInt(amount / 100);
-var notesOf50 = parseInt((amount % 100) / 50);
-var notesOf10 = ((amount % 100) % 50) / 10;
-var remAmount = ((amount % 100) % 50) % 10;
+// var notesOf100 = parseInt(amount / 100);
+// var notesOf50 = parseInt((amount % 100) / 50);
+// var notesOf10 = ((amount % 100) % 50) / 10;
+// var remAmount = ((amount % 100) % 50) % 10;
 
-alert("You will have " + notesOf100 + " hundred notes " + notesOf50 + " fifty notes " + notesOf10 + " ten notes");
+// alert("You will have " + notesOf100 + " hundred notes " + notesOf50 + " fifty notes " + notesOf10 + " ten notes");
