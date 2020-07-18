@@ -3,32 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter # 43-48</title>
+    <title>Chapter # 53-57</title>
 </head>
 <style>
-    .row {
+    .format {
+
+        width: 250px;
+        height: 230px;
+
+    }
+
+
+    /* Modal starts */
+
+    /* The Modal (background) */
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 500;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
         width: 100%;
-        display: inline-block;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.3);
     }
-    .col-1 {
-        display: inline-block;
-        padding: 50px;
+
+    /* Modal Content (image) */
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
     }
-    .col-2 {
-        display: inline-block;
-        padding: 50px;
+
+    /* Add Animation - Zoom in the Modal */
+
+    .modal-open {
+        animation-name: zoomIn;
+        animation-duration: 0.6s;
     }
-    .col-3 {
-        display: inline-block;
-        padding: 50px;
+
+    @keyframes zoomIn {
+        from {
+            transform: scale(0)
+        }
+        to {
+            transform: scale(1)
+        }
     }
-    .col-4 {
-        display: inline-block;
-        padding: 50px;
+
+    .modal-close {
+        animation-name: zoomOut;
+        animation-duration: 0.6s;
     }
-    table, th, td {
-        border: 1px solid black;
+
+    @keyframes zoomOut {
+        from {
+            transform: scale(1)
+        }
+        to {
+            transform: scale(0)
+        }
     }
+
+
+
+    /* The Close Button */
+
+    .close {
+        position: absolute;
+        top: 50px;
+        right: 10%;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: normal;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* modal ends */
 </style>
 <body>   
 
