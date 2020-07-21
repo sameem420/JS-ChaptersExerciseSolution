@@ -1,4 +1,4 @@
-Chapter 17-20              ARRAYS AND LOOP
+// Chapter 17-20   ARRAYS AND LOOP
 question1
 1. Declare and initialize an empty multidimensional array.
 (Array of arrays)
