@@ -18,7 +18,6 @@ document.write("<br>Now the value of a is: "+a);
 
 document.write("<br><br><br>The value of a-- is: "+ a--);
 document.write("<br>Now the value of a is: "+a+"<br><br>");
-question1
 
 // question2
 // 2. What will be the output in variables a, b & result after
@@ -35,14 +34,12 @@ var result = --a - --b + ++b + b--;
 var a = 2, b = 1;
 var result = --a - --b + ++b + b--;
 document.write("result is "+result+"<br>");
-question2
 
 // question3
 // 3. Write a program that takes input a name from user &
 // greet the user.
 var name=prompt("Whats your name?");
-alert("Your name is "+name);
-question3
+alert("Your name is " + name);
 
 
 // question4
