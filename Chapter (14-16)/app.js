@@ -1,46 +1,47 @@
 // Chapter 14-16   ARRAYS 
-question1
-1. Declare an empty array using JS literal notation to store
+
+// question1
+// 1. Declare an empty array using JS literal notation to store
 student names in future.
 var arrStudent=[];
 
 
-question2
-2. Declare an empty array using JS object notation to store
+// question2
+// 2. Declare an empty array using JS object notation to store
 student names in future.
 var studentArray=new Array();
 
 
-question3
-3. Declare and initialize a strings array
+// question3
+// 3. Declare and initialize a strings array
 var arrString=["bilal","ammar","hassan","ali"];
 
 
-question4
-4. Declare and initialize a numbers array.
+// question4
+// 4. Declare and initialize a numbers array.
 var arrNum=[1,2,3,4,5];
 
 
 
-question5
-5. Declare and initialize a boolean array.
+// question5
+// 5. Declare and initialize a boolean array.
 var arrBoolean=[1,0,false,true];
 alert(arrBoolean);
 question5
 
 
-question6
-6. Declare and initialize a mixed array.
+// question6
+// 6. Declare and initialize a mixed array.
 var arrMixed=[1,"bilal",true,'a'];
 alert(arrMixed);
 
 
 
-question7
-7. Declare and Initialize an array and store available
-education qualifications in Pakistan (e.g. SSC, HSC, BCS,
-BS, BCOM, MS, M. Phil., PhD). Show the listed
-qualifications in your browser like:
+// question7
+// 7. Declare and Initialize an array and store available
+// education qualifications in Pakistan (e.g. SSC, HSC, BCS,
+// BS, BCOM, MS, M. Phil., PhD). Show the listed
+// qualifications in your browser like:
 var qual="Qualifications";
 document.write(qual.bold()+"&nbsp;");
 var degrees=["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M.Phil", "PhD"];
@@ -51,11 +52,11 @@ for(var i=0;i<=7;i++)
 
 
 
-question8
-8. Write a program to store 3 student names in an array.Take
-another array to store score of these three students.
-Assume that total marks are 500 for each student, display
-the scores & percentages of students like:
+// question8
+// 8. Write a program to store 3 student names in an array.Take
+// another array to store score of these three students.
+// Assume that total marks are 500 for each student, display
+// the scores & percentages of students like:
 var arrName=new Array(3);
 var arrScore=new Array(3);
 var Marks=500;
@@ -74,17 +75,17 @@ for(var i=0;i<3;i++)
 }
 
 
-question9
-9. Initialize an array with color names. Display the array
-elements in your browser.
+// question9
+// 9. Initialize an array with color names. Display the array
+// elements in your browser.
 var arrColor=["red","blue","green","yellow","purple"];
 var size=arrColor.length;
 for(var i=0;i<size;i++)
 {
     document.write(arrColor[i]+"<br>");
 }
-a. Ask the user what color he/she wants to add to the
-beginning & add that color to the beginning of the array.
+// a. Ask the user what color he/she wants to add to the
+// beginning & add that color to the beginning of the array.
 var addbegin=prompt("Enter the color you want to add at the beggining"+
 " of the array ");
 arrColor.unshift(addbegin);
