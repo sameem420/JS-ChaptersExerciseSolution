@@ -285,9 +285,9 @@ arr.shift();
 
 
 
-question14
-14. Create a new array. Store values one by one in such a way
-that you can access the values in reverse order. (Last InFirst Out)
+// question14
+// 14. Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last InFirst Out)
 var arr=[];
 arr.unshift(2);
 arr.unshift(3);
@@ -306,11 +306,11 @@ arr.shift();
 arr.shift();
 
 
-question15
-15.Write a program to store phone manufacturers (Apple,
-    Samsung, Motorola, Nokia, Sony & Haier) in an array.
-    Display the following dropdown/select menu in your
-    browser using document.write() method:
+// question15
+// 15.Write a program to store phone manufacturers (Apple,
+//     Samsung, Motorola, Nokia, Sony & Haier) in an array.
+//     Display the following dropdown/select menu in your
+//     browser using document.write() method:
 var phoneArray=["Apple","Motorola","Nokia","Sony","Haier"];
 var size=phoneArray.length;
 for(var i=0;i<size;i++)
