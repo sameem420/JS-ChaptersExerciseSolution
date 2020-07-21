@@ -59,7 +59,6 @@ for(var i=1;i<=length;i++)
 }
 
 
-
 // question5
 // 5. Write a program to print items of the following array
 // using for loop:
@@ -80,31 +79,31 @@ for(var i=0;i<size;i++)
 // question6
 // 6. Generate the following series in your browser. See
 // example output.
-a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 document.write("<b>Counting:</b><br>");
 for(var i=1;i<=15;i++)
 {
     document.write(i+" , ");
 }
-b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 document.write("<br><br><b>Reverse Counting:</b><br>");
 for(var i=15;i>=1;i--)
 {
     document.write(i+" , ");
 }
-c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
 document.write("<br><br><b>Even:</b><br>");
 for(var i=0;i<=20;i=i+2)
 {
     document.write(i+" , ");
 }
-d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
 document.write("<br><br><b>Odd:</b><br>");
 for(var i=1;i<=20;i=i+2)
 {
     document.write(i+" , ");
 }
-e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 document.write("<br><br><b>Series:</b><br>");
 for(var i=0;i<=20;i=i+2)
 {
@@ -113,14 +112,14 @@ for(var i=0;i<=20;i=i+2)
 
 
 
-question7
-7. You have an array
-A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
-Write a program to enable “search by user input” in an
-array.
-After searching, prompt the user whether the given item is
-found in the list or not. Example:
-question7
+// question7
+// 7. You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
+
 var A = ["cake","apple pie","cookie","chips","patties"];
 var search=prompt("Welcome to ABC Bakery.What do you want to order Sir/Ma'm");
 var size=A.length;
@@ -140,10 +139,10 @@ if(check==false)
 }
 
 
-question8
-8. Write a program to identify the largest number in the
-given array.
-A = [24, 53, 78, 91, 12].
+// question8
+// 8. Write a program to identify the largest number in the
+// given array.
+// A = [24, 53, 78, 91, 12].
 var  A = [24, 53, 78, 91, 12];
 var size=A.length;
 var larger=A[0];
@@ -159,10 +158,10 @@ document.write("<br>The largest number is "+larger+"<br><br>");
 
 
 
-question9
-9. Write a program to identify the smallest number in the
-given array.
-A = [24, 53, 78, 91, 12]
+// question9
+// 9. Write a program to identify the smallest number in the
+// given array.
+// A = [24, 53, 78, 91, 12]
 var  A = [24, 53, 78, 91, 12];
 var size=A.length;
 var small=A[0];
@@ -178,9 +177,9 @@ document.write("<br>The smallest number is "+small+"<br><br>");
 
 
 
-question10
-10. Write a program to print multiples of 5 ranging 1 to
-100.
+// question10
+// 10. Write a program to print multiples of 5 ranging 1 to
+// 100.
 for(var i=1;i<=100;++i)
 {
     if(i%5==0)
