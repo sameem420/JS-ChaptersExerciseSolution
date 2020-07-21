@@ -4,8 +4,6 @@ question1
 (Array of arrays)
 question1
 var miltiArray=[[1,"one"],[2,"two"],[3,"three"],[4,"four"]]; 
-question1
-
 
 
 question2
@@ -21,7 +19,6 @@ for(var i=0;i<3;i++)
     }
     document.write("<br>");
 }
-question2
 
 
 question3
@@ -30,7 +27,6 @@ for(var i=0;i<10;i++)
 {
     document.write((i+1)+"<br>");
 }
-question3
 
 
 question4
@@ -60,7 +56,6 @@ for(var i=1;i<=length;i++)
     mul=number*i;
     document.write("<br>"+number+" x "+i+" = "+mul);
 }
-question4
 
 
 
@@ -78,7 +73,6 @@ for(var i=0;i<size;i++)
 {
     document.write("Element at index "+i+" is "+fruits[i]+"<br>");
 }
-question5
 
 
 
@@ -117,8 +111,6 @@ for(var i=0;i<=20;i=i+2)
 }
 
 
-question6
-
 
 question7
 7. You have an array
@@ -146,6 +138,7 @@ if(check==false)
     alert("We are sorry "+search  +" is not available in our bakery");
 }
 
+
 question8
 8. Write a program to identify the largest number in the
 given array.
@@ -163,7 +156,7 @@ for(var i=0;i<size;i++)
 }
 document.write("<br>The largest number is "+larger+"<br><br>");
 
-question8
+
 
 question9
 9. Write a program to identify the smallest number in the
@@ -181,7 +174,7 @@ for(var i=0;i<size;i++)
     }
 }
 document.write("<br>The smallest number is "+small+"<br><br>");
-question9
+
 
 
 question10
@@ -194,4 +187,3 @@ for(var i=1;i<=100;++i)
         document.write(i+" , ");
     }
 }
-question10
