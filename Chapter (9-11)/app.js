@@ -1,4 +1,4 @@
-Chapter 9-11              USER INPUT & CONDITIONAL STATEMENT
+// Chapter 9-11              USER INPUT & CONDITIONAL STATEMENT
 
 question1
 1. Write a program to take “city” name as input from user. If
@@ -13,7 +13,7 @@ if(xcity=="karachi")
 else{
     alert("We are not ordered to welcome you");
 }
-question1
+
 
 question2
 2. Write a program to take “gender” as input from user. If the
@@ -28,7 +28,7 @@ if(gender=="male")
 else if(gender=="female"){
     alert("Good Morning Ma'm");
 }
-question2
+
 
 question3
 3. Write a program to take input color of road traffic signal
@@ -55,7 +55,7 @@ else
 {
     alert("Enter right value");
 }
-question3
+
 
 question4
 4.Write a program to take input remaining fuel in car 
@@ -72,7 +72,7 @@ else if(fuelNum>=0.25)
 {
     alert("Your fuel is ok now");
 }
-question4
+
 
 question5
 5. Run this script, & check whether alert message would be
@@ -123,7 +123,7 @@ try it to clear the concept
 if("caq" < "car"){
     alert("caq is smaller than car");
 }
-question5
+
 
 question6
 6. Write a program to take input the marks obtained in 
@@ -172,7 +172,7 @@ document.write(marksheet.bold()+"<br>"+tm.bold()+"&nbsp;&nbsp;&nbsp;&nbsp;"+tota
 +"<br>"+mo.bold()+"&nbsp;&nbsp;&nbsp;&nbsp;"+obt+"<br>"+perc.bold()+"&nbsp;&nbsp;&nbsp;&nbsp;"+
 percentage+"%"+"<br>"+gra.bold()+"&nbsp;&nbsp;:"+grade+"<br>"+rema.bold()+"&nbsp;&nbsp;&nbsp;&nbsp;"
 +remarks);
-question6
+
 
 question7
 7. Guess game:
@@ -195,8 +195,6 @@ else if((guess-1)===sec)
     alert("Close enough to the correct answer");
 }
 
-question7
-
 
 question8
 8. Write a program to check whether the given number is
@@ -213,7 +211,6 @@ else
     alert("No its not divisible by 3");
 }
 
-question8
 
 question9
 9. Write a program that checks whether the given input is an
@@ -228,7 +225,6 @@ else
 {
     alert("Its an Odd number");
 }
-question9
 
 
 question10
@@ -256,7 +252,6 @@ else if(temp>10)
 {
     alert("OMF! Today’s weather is so Cool.");
 }
-question10
 
 
 question11
@@ -301,4 +296,4 @@ else
 {
     alert("Enter right symbol please");
 }
-question11
+
