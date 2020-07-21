@@ -26,7 +26,6 @@ else
  
 
 alert(String.fromCharCode(65,66,67)); // returns 'ABC'
-question1
 
 
 question2
@@ -48,7 +47,6 @@ else if(num1==num2)
 {
     alert("The number 1 and number 2 are equal");
 }
-question2
 
 
 question3
@@ -68,7 +66,6 @@ else if(num1<0)
 {
     alert("The number is negative");
 }
-question3
 
 
 question4
@@ -91,7 +88,6 @@ if(str===1)
 else{
     alert("Please Enter a character i.e(The length of string 1)");
 }
-question4
 
 
 question5
@@ -131,7 +127,6 @@ else if(pas1!=pas2)
 }
 
 
-question5
 
 question6
 6. This if/else statement does not work. Try to fix it:
@@ -148,7 +143,7 @@ alert(greeting);
 }
 The brackets {} were not there correctly
 Answer
-question6
+
 
 question7
 7. Write a program that takes time as input from user in 24
@@ -186,4 +181,4 @@ else
 {
     alert("Where are you coming out of the required condition Its 24 hour time program");
 }
-question7            
+  
