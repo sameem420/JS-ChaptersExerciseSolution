@@ -1,8 +1,9 @@
 // Chapter 17-20   ARRAYS AND LOOP
-question1
-1. Declare and initialize an empty multidimensional array.
-(Array of arrays)
-question1
+
+// question1
+// 1. Declare and initialize an empty multidimensional array.
+// (Array of arrays)
+
 var miltiArray=[[1,"one"],[2,"two"],[3,"three"],[4,"four"]]; 
 
 
