@@ -1,25 +1,25 @@
-Chapter 14-16              ARRAYS 
+Chapter 14-16    ARRAYS 
 question1
 1. Declare an empty array using JS literal notation to store
 student names in future.
 var arrStudent=[];
-question1
+
 
 question2
 2. Declare an empty array using JS object notation to store
 student names in future.
 var studentArray=new Array();
-question2
+
 
 question3
 3. Declare and initialize a strings array
 var arrString=["bilal","ammar","hassan","ali"];
-question3
+
 
 question4
 4. Declare and initialize a numbers array.
 var arrNum=[1,2,3,4,5];
-question4
+
 
 
 question5
@@ -33,7 +33,7 @@ question6
 6. Declare and initialize a mixed array.
 var arrMixed=[1,"bilal",true,'a'];
 alert(arrMixed);
-question6
+
 
 
 question7
@@ -48,7 +48,7 @@ for(var i=0;i<=7;i++)
 {
     document.write("<br>"+(i+1)+"&nbsp;)&nbsp;&nbsp;"+degrees[i]);
 }
-question7
+
 
 
 question8
@@ -72,7 +72,6 @@ for(var i=0;i<3;i++)
 {
     document.write("Score of&nbsp;&nbsp;"+arrName[i]+"&nbsp;is&nbsp;"+arrScore[i]+"&nbsp;Percentage:&nbsp;"+arrPercentage[i]+"%<br>");
 }
-question8
 
 
 question9
@@ -180,8 +179,6 @@ for(var i=0;i<size;i++)
     document.write(arrColor[i]+"<br>");
 }
 
-question9
-
 
 
 question10
@@ -210,7 +207,7 @@ for(var i=0;i<Size;i++)
 {
     document.write(Score[i]+"&nbsp;&nbsp;");
 }
-question10
+
 
 
 question11
@@ -250,7 +247,7 @@ for(var i=0;i<Size;i++)
 {
     document.write(selectedCities[i]+"&nbsp;&nbsp;");
 }        
-question11
+
 
 
 question12
@@ -261,7 +258,7 @@ var arr = [“This ”, “ is ”, “ my ”, “ cat”];
 var arr = ["This","is","my","cat"];
 var singleString=arr.join(" ");
 document.write("Array:<br>"+arr+"<br>"+"String:<br>"+singleString);
-question12
+
 
 
 question13
@@ -285,7 +282,6 @@ arr.shift();
 arr.shift();
 arr.shift();
 
-question13
 
 
 question14
@@ -308,7 +304,6 @@ arr.shift();
 arr.shift();
 arr.shift();
 
-question14
 
 question15
 15.Write a program to store phone manufacturers (Apple,
