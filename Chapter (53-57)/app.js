@@ -39,7 +39,7 @@ span.onclick = function() {
 
 
 
-
+// Task # 2
 var paragraph = document.getElementById("myPara");
 
 function ZoomIn() {
