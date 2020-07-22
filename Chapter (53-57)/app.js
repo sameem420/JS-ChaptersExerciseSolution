@@ -14,7 +14,7 @@
 
 // for (let i = 0; i < pictures.length; i++) {
 //     // modal.innerHTML += "<img src='" + pictures[i] + "' class=test>";
-//     mB.innerHTML += "<img src='" + pictures[i] + "' class=test>";
+//     mB.innerHTML += "<img src='" + pictures[i] + "' class=test> id=myImg";
 // }
 
 // var mimg = document.getElementsByClassName("test");
