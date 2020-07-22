@@ -39,8 +39,8 @@ span.onclick = function() {
 
 
 
-var paragraph = document.getElementById("myPara");
 
+var paragraph = document.getElementById("myPara");
 
 function ZoomIn() {
     var style = window.getComputedStyle(paragraph, null).getPropertyValue('font-size');
