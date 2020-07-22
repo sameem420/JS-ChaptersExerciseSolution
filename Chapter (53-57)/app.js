@@ -1,45 +1,23 @@
 // Task # 1
-// var modal = document.getElementById('myModal');
-// var modalImg = document.getElementById("modal-img");
+var mB = document.getElementById("Mainbody");
 
-// var mB = document.getElementById("Mainbody");
-
-// var pictures = [
-//     'images/3.jpg',
-//     'images/4.png',
-//     'images/5.jpg',
-//     'images/6.jpg'
-// ];
+var pictures = [
+    'images/3.jpg',
+    'images/4.png',
+    'images/5.jpg',
+    'images/6.jpg'
+];
 
 
-// for (let i = 0; i < pictures.length; i++) {
-//     // modal.innerHTML += "<img src='" + pictures[i] + "' class=test>";
-//     mB.innerHTML += "<img class=myImages id=myImg src='" + pictures[i] + "'>";
-// }
+for (let i = 0; i < pictures.length; i++) {
+    // modal.innerHTML += "<img src='" + pictures[i] + "' class=test>";
+    mB.innerHTML += "<img class=myImages id=myImg src='" + pictures[i] + "'>";
+}
 
-// var mimg = document.getElementsByClassName("test");
-// var images = document.querySelectorAll(".test");
-
-// for(let i = 0; i < pictures.length; i++){
-    
-//     var img = pictures[i];
-//     console.log(img);
-//   // and attach our click listener for this image.
-//     img.onclick = function(evt) {
-//       modal.style.display = "block";
-//       modalImg.src = this.src;
-//       console.log(modalImg)
-//     }
-//   }
-
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
-
-// // When the user clicks on <span> (x), close the modal
-// span.onclick = function() { 
-//     modal.style.display = "none";
-// }
-
+for (let i = 0; i < pictures.length; i++) {
+    // modal.innerHTML += "<img src='" + pictures[i] + "' class=test>";
+    console.log(mB.childNodes[i]);
+}
 
 
 
@@ -47,14 +25,13 @@ var modal = document.getElementById('myModal');
 // to all images -- note I'm using a class!
 var images = document.getElementsByClassName('myImages');
 // the image in the modal
-var modalImg = document.getElementById("img01");
+var modalImg = document.getElementById("modal-img");
 // and the caption in the modal
 var captionText = document.getElementById("caption");
 
 // Go through all of the images with our custom class
 for (var i = 0; i < images.length; i++) {
   var img = images[i];
-  console.log(img)
   // and attach our click listener for this image.
   img.onclick = function(evt) {
     modal.style.display = "block";
