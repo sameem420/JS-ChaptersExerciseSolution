@@ -14,7 +14,7 @@
 
 // for (let i = 0; i < pictures.length; i++) {
 //     // modal.innerHTML += "<img src='" + pictures[i] + "' class=test>";
-//     mB.innerHTML += "<img src='" + pictures[i] + "' class=test> id=myImg";
+//     mB.innerHTML += "<img class=myImages id=myImg src='" + pictures[i] + "'>";
 // }
 
 // var mimg = document.getElementsByClassName("test");
@@ -54,6 +54,7 @@ var captionText = document.getElementById("caption");
 // Go through all of the images with our custom class
 for (var i = 0; i < images.length; i++) {
   var img = images[i];
+  console.log(img)
   // and attach our click listener for this image.
   img.onclick = function(evt) {
     modal.style.display = "block";
