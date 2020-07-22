@@ -8,18 +8,10 @@ var pictures = [
     'images/6.jpg'
 ];
 
-
 for (let i = 0; i < pictures.length; i++) {
     // modal.innerHTML += "<img src='" + pictures[i] + "' class=test>";
     mB.innerHTML += "<img class=myImages id=myImg src='" + pictures[i] + "'>";
 }
-
-for (let i = 0; i < pictures.length; i++) {
-    // modal.innerHTML += "<img src='" + pictures[i] + "' class=test>";
-    console.log(mB.childNodes[i]);
-}
-
-
 
 var modal = document.getElementById('myModal');
 // to all images -- note I'm using a class!
