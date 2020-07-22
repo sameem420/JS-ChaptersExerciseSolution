@@ -6,96 +6,115 @@
     <title>Chapter # 53-57</title>
 </head>
 <style>
-    .format {
-        width: 250px;
-        height: 230px;
-    }
-    /* Modal starts */
+   #myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-    /* The Modal (background) */
+#myImg:hover {
+  opacity: 0.7;
+}
 
-    .modal {
-        /* display: none; */
-        position: fixed;
-        z-index: 500;
-        padding-top: 100px;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.3);
-    }
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
 
-    /* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
 
-    .modal-content {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-    }
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
 
-    /* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
 
-    .modal-open {
-        animation-name: zoomIn;
-        animation-duration: 0.6s;
-    }
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
 
-    @keyframes zoomIn {
-        from {
-            transform: scale(0)
-        }
-        to {
-            transform: scale(1)
-        }
-    }
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
-    .modal-close {
-        animation-name: zoomOut;
-        animation-duration: 0.6s;
-    }
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-    @keyframes zoomOut {
-        from {
-            transform: scale(1)
-        }
-        to {
-            transform: scale(0)
-        }
-    }
-
-    /* The Close Button */
-
-    .close {
-        position: absolute;
-        top: 50px;
-        right: 10%;
-        color: #f1f1f1;
-        font-size: 40px;
-        font-weight: normal;
-        transition: 0.3s;
-    }
-
-    .close:hover,
-    .close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    /* modal ends */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
 </style>
 
-<body>   
+<body id="Mainbody">   
 
-    <!-- Modal work -->
-    <div id="modal" class="modal">
-        <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
-        <img class="modal-content" id="modal-img">
-    </div>
+    <!-- Modal work
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span> -->
+        <!-- <img class="modal-content" id="modal-img">
+    </div> -->
 
+    <img class="myImages" id="myImg" src="http://onebigphoto.com/uploads/2012/10/midnight-sun-in-lofoten-norway.jpg" alt="Midnight sun in Lofoten, Norway" width="300" height="200">
+<img class="myImages" id="myImg" src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1490029386/fisherman-cabin-hamnoy-lofoten-islands-norway-NORWAY0320.jpg?itok=cpPuUjh1" alt="Fishermen's cabins in Lofoten, Norway"
+width="300" height="200">
+<img class="myImages" id="myImg" src="http://fjordtours.blob.core.windows.net/fjordtours-umbraco/1199/gerirangerfjord-per-ottar-walderhaug-fjordnorway.jpg" alt="Gerirangerfjord, Norway" width="300" height="200">
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
     
     <script src="./app.js"></script>
 </body>
