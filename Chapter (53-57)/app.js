@@ -37,3 +37,20 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+
+
+var paragraph = document.getElementById("myPara");
+
+
+function ZoomIn() {
+    var style = window.getComputedStyle(paragraph, null).getPropertyValue('font-size');
+    var currentSize = parseFloat(style);
+    paragraph.style.fontSize = (currentSize + 10) + 'px';
+}
+
+
+function ZoomOut() {
+    var style = window.getComputedStyle(paragraph, null).getPropertyValue('font-size');
+    var currentSize = parseFloat(style);
+    paragraph.style.fontSize = (currentSize - 10) + 'px';
+}
