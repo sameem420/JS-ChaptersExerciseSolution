@@ -1,5 +1,5 @@
 // Task # 1
-var mB = document.getElementById("Mainbody");
+var body = document.getElementById("Mainbody");
 
 var pictures = [
     'images/3.jpg',
@@ -9,7 +9,7 @@ var pictures = [
 ];
 
 for (let i = 0; i < pictures.length; i++) {
-    mB.innerHTML += "<img class=myImages id=myImg width=300 height=200 src='" + pictures[i] + "'>";
+    body.innerHTML += "<img class=myImages id=myImg width=300 height=200 src='" + pictures[i] + "'>";
 }
 
 var modal = document.getElementById('myModal');
