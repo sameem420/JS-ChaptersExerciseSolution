@@ -25,3 +25,12 @@ var formContent = document.getElementById("form-content");
 document.write("<br><br>" + formContent.nodeType);
 
 document.write("<br><br>" + lastName.nodeType);
+
+console.log(mainContent.firstChild);
+console.log(mainContent.lastChild);
+
+console.log(lastName.nextSibling);
+console.log(lastName.previousSibling);
+
+console.log(email.parentNode);
+console.log(email.nodeType);
