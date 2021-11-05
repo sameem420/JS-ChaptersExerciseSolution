@@ -1,3 +1,3 @@
-# JS-ChaptersExerciseSolution
+# JavaScript-ChaptersExerciseSolution
 
-JavaScript Assignment complete solutions from chapter 1 (first) to chapter 67 (end)
+### JavaScript(EcmaScript) Assignments complete solution from first chapter to End (67).
